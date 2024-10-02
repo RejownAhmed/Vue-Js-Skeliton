@@ -30,7 +30,6 @@ const submit = async () => {
   // By default let's set the default token
   setToken("token");
   router.push("/dashboard");
-
 };
 </script>
 
@@ -44,9 +43,7 @@ const submit = async () => {
             <h1 class="text-2xl">Login to Application</h1>
             <div>
               <label class="space-y-3">
-                <div>
-                  Email Address
-                </div>
+                <div>Email Address</div>
                 <input
                   class="w-full p-3 py-2 rounded-md border border-gray-300"
                   type="email"
@@ -57,9 +54,7 @@ const submit = async () => {
             </div>
             <div>
               <label class="space-y-3">
-                <div>
-                  Password
-                </div>
+                <div>Password</div>
                 <input
                   class="w-full p-3 py-2 rounded-md border border-gray-300"
                   type="password"
@@ -69,10 +64,7 @@ const submit = async () => {
               </label>
             </div>
             <hr class="border-gray-300" />
-            <button
-              type="submit"
-              class="w-full bg-green-500 text-white rounded-md py-3"
-            >
+            <button type="submit" class="w-full bg-green-500 text-white rounded-md py-3">
               Sign in
             </button>
           </div>

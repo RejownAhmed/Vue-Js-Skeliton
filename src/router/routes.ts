@@ -26,7 +26,7 @@ const routes: Array<RouteRecordRaw> = [
         path: "settings",
         name: "dashboard.settings",
         component: () => import("@/views/dashboard/settings/index.vue"),
-      }
+      },
     ],
   },
   // Auth paths
@@ -48,8 +48,8 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: "login",
         name: "auth.login",
-        component: ()=> import("@/views/auth/login.vue"),
-      }
+        component: () => import("@/views/auth/login.vue"),
+      },
     ],
   },
 ];

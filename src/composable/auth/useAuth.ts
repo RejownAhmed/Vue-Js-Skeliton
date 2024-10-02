@@ -13,10 +13,11 @@ export function useAuth() {
   const fetchUserProfile = async () => {
     // Fetch profile
     // By default if has token set a dummy user
-    if (getToken()) authenticateUser({
-      name: "John Doe",
-      email: "john@demo.com"
-    });
+    if (getToken())
+      authenticateUser({
+        name: "John Doe",
+        email: "john@demo.com",
+      });
 
     // try {
     //   const response: any = await get(MY_PROFILE);
@@ -30,7 +31,6 @@ export function useAuth() {
     //     deleteToken();
     //   }
     // }
-
   };
 
   // Logout user
@@ -38,7 +38,7 @@ export function useAuth() {
     deleteToken();
     logoutUser();
 
-    window.location.href = "/login"
+    window.location.href = "/login";
   };
 
   return {

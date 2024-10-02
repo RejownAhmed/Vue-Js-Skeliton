@@ -1,12 +1,8 @@
 <template>
-  <div class="navbar_wrapper">
-    This is navbar
-  </div>
+  <div class="navbar_wrapper">This is navbar</div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style lang="scss">
 // Here goes scsss

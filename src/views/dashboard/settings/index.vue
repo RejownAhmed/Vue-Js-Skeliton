@@ -1,13 +1,7 @@
 <template>
-  <div>
-    Hi, I am settings page
-  </div>
+  <div>Hi, I am settings page</div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
