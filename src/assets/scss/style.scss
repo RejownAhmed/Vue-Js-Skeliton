@@ -1,0 +1,15 @@
+/* Base */
+@tailwind base;
+@import "./base/base";
+
+/* Components */
+@tailwind components;
+@import "./components/components";
+
+/* Utils */
+@tailwind utilities;
+
+/* Custom */
+html {
+  font-weight: 400;
+}

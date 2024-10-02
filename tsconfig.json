@@ -1,0 +1,16 @@
+{
+    "extensions": ["*", ".js", ".ts", ".vue", ".json"],
+    "compilerOptions": {
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "target": "esnext",
+        "module": "esnext",
+        "outDir": "./public", // Do not remove. It's Necessary for eslint error
+        "moduleResolution": "node",
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    }
+}
